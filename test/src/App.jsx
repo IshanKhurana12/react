@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     hello
-    <Add />
+    <Add  num1={10}num2={20}/>
     </>
   )
 }
