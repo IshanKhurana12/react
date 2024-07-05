@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Add from './Add'
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
     hello
+    <Add />
     </>
   )
 }
