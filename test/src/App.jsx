@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Add from './Add'
+import Numbers from './Numbers'
 
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
     <>
     hello
     <Add  num1={10}num2={20}/>
+    <h1>calculator</h1>
+    <Numbers />
     </>
   )
 }
