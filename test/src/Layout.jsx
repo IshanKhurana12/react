@@ -11,6 +11,9 @@ function Layout(){
                 <li>
                     <Link to="/contact">Contact</Link>
                 </li>
+                <li>
+                    <Link to="/exp">Expensive calculation</Link>
+                </li>
             </ul>
         </nav>
         
