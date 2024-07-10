@@ -11,7 +11,7 @@ export default function Expensive() {
             return  num;
     } 
 
-   const calculation= exp(ans); 
+   const calculation=useMemo(()=>exp(ans),[ans]) ; 
    
 
 const increment=()=>{
